@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="my-info">
+    <view class="profile-info" bindtap="goLogin">
+      <image class="avatar" src="{{userInfo.avatarUrl}}" />
+      <view class="my-info-name">{{userInfo.nickName}}
+        <text></text>
+      </view>
+    </view>
+  </view>
+  <view class="my-item-list">
+    <view class="my-item">
+      <navigator url="/pages/select-address/index" hover-class="none">快递费说明</navigator>
+      <image src="../../../images/right-icon.png" />
+    </view>
+    <view class="my-item">
+      <navigator url="/pages/select-address/index" hover-class="none">团购说明</navigator>
+      <image src="../../../images/right-icon.png" />
+    </view>
+  </view>
+</view>
